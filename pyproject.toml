@@ -1,14 +1,14 @@
 [tool.poetry]
 name = "prts"
-version = "1.0.0.3"
+version = "1.0.0.4"
 description=""
 readme = "README.md"
 license = "LICENSE"
 authors = ["Ryohei Izawa <rizawa@ridge-i.com>", "Ryosuke Sato<sarrrrry.sarrrrry@gmail.com>", "Masanari Kimura<mkimura@ism.ac.jp>"]
 
 [tool.poetry.dependencies]
-python = "^3.6"
-numpy = "^1.19.4"
+python = ">=3.6"
+numpy = ">=1.19.4"
 
 [tool.poetry.dev-dependencies]
 sklearn = "^0.0"

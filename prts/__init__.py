@@ -3,7 +3,7 @@ from prts.time_series_metrics.precision import TimeSeriesPrecision
 from prts.time_series_metrics.recall import TimeSeriesRecall
 
 
-__version__ = "1.0.0.3"
+__version__ = "1.0.0.4"
 
 
 def ts_precision(real, pred, alpha=0.0, cardinality="one", bias="flat"):
